@@ -1,10 +1,13 @@
 {
   "name": "freefire-topup-api",
   "version": "1.0.0",
-  "description": "All-in-one Free Fire Top-Up API (Node.js only)",
+  "description": "Free Fire Top-Up API (Node.js + Playwright)",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
   },
   "dependencies": {
     "express": "^4.19.2",
